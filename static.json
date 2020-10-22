@@ -1,6 +1,16 @@
 {
 "headers": {
-  "/*": {
+  "/": {
+  "Content-Type": "text/plain; charset=UTF-8",  
+  "X-Author": "sdudnik",
+  "Access-Control-Allow-Origin": "*"
+    },
+    "/login/*": {
+  "Content-Type": "text/plain; charset=UTF-8",  
+  "X-Author": "sdudnik",
+  "Access-Control-Allow-Origin": "*"
+    },
+    "/sample/*": {
   "Content-Type": "text/plain; charset=UTF-8",  
   "X-Author": "sdudnik",
   "Access-Control-Allow-Origin": "*"
